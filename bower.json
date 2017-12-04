@@ -1,0 +1,21 @@
+{
+  "name": "opensmarty-starter",
+  "description": "",
+  "main": "",
+  "authors": [
+    "opensmarty <opensmarty@163.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "toastr": "^2.1.2"
+  }
+}
