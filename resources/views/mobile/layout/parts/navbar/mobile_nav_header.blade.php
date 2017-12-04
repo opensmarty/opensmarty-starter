@@ -12,7 +12,7 @@
         {{--<span class="hidden-folded m-l-xs">--}}
             {{--<img src="https://www.someline.com/images/logo/someline-logo@2x.png" style="max-height: 18px" alt=".">--}}
         {{--</span>--}}
-        Someline
+        Opensmarty
     </div>
     <!-- / brand -->
 </div>

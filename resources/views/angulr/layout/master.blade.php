@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <meta name="keywords" content="@yield('keywords', config('app.keywords')))"/>
     <meta name="description" content="@yield('description', config('app.description'))"/>
-    <title>@yield('title', config('app.title', 'Someline Starter'))</title>
+    <title>@yield('title', config('app.title', 'Opensmarty Starter'))</title>
     <link rel="stylesheet" href="{{url(smart_mix("assets/css/app.theme.css",'',false))}}" type="text/css"/>
     @stack('stylesheets')
     <script type="text/javascript">
@@ -28,7 +28,7 @@
                         'user' => $user,
                 ],
         ];
-        echo 'window.Someline = ' . json_encode($data);
+        echo 'window.Opensmarty = ' . json_encode($data);
         ?>
     </script>
     <script type="text/javascript">

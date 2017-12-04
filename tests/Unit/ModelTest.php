@@ -2,7 +2,7 @@
 
 namespace Tests\Unit;
 
-use Someline\Models\Foundation\User;
+use Opensmarty\Models\Foundation\User;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;

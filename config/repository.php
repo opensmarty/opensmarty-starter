@@ -172,7 +172,7 @@ return [
         'acceptedConditions' => [
             '=',
             'like',
-            'like_raw',     // use this with: \Someline\Repositories\Criteria\RequestCriteria class, will convert to 'like'
+            'like_raw',     // use this with: \Opensmarty\Repositories\Criteria\RequestCriteria class, will convert to 'like'
         ],
         /*
         |--------------------------------------------------------------------------
@@ -223,7 +223,7 @@ return [
     */
     'generator'  => [
         'basePath'      => app_path(),
-        'rootNamespace' => 'Someline\\',
+        'rootNamespace' => 'Opensmarty\\',
         'paths'         => [
             'models'       => 'Models',
             'repositories' => 'Repositories\Eloquent',

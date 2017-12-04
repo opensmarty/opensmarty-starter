@@ -4,12 +4,12 @@ namespace Opensmarty\Models\Foundation;
 
 use Illuminate\Notifications\Notifiable;
 use Laravel\Passport\HasApiTokens;
-use Opensmarty\Image\Models\Traits\SomelineHasImageablesTrait;
+use Opensmarty\Image\Models\Traits\OpensmartyHasImageablesTrait;
 use Opensmarty\Model\Foundation\User as BaseUser;
 
 class User extends BaseUser
 {
-    use SomelineHasImageablesTrait;
+    use OpensmartyHasImageablesTrait;
 
     /**
      * The attributes that are mass assignable.

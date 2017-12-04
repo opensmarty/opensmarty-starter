@@ -96,7 +96,7 @@ return array(
         // environment: production
         'production' => [
 
-            'someline-starter' => [
+            'opensmarty-starter' => [
 
                 'base_uri' => 'http://opensmarty-starter.app/',
 

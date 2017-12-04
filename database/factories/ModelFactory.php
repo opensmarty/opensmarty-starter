@@ -12,7 +12,7 @@
 */
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
-$factory->define(\Someline\Models\Foundation\User::class, function (Faker\Generator $faker) {
+$factory->define(\Opensmarty\Models\Foundation\User::class, function (Faker\Generator $faker) {
     static $password;
 
     return [

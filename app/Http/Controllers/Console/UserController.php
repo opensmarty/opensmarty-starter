@@ -1,8 +1,8 @@
 <?php
 
-namespace Someline\Http\Controllers\Console;
+namespace Opensmarty\Http\Controllers\Console;
 
-use Someline\Http\Controllers\BaseController;
+use Opensmarty\Http\Controllers\BaseController;
 
 class UserController extends BaseController
 {

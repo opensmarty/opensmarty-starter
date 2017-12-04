@@ -8,7 +8,7 @@ namespace Opensmarty\Events\User;
 
 
 use Illuminate\Queue\SerializesModels;
-use Someline\Models\Foundation\User;
+use Opensmarty\Models\Foundation\User;
 
 class UserLoggedInEvent
 {

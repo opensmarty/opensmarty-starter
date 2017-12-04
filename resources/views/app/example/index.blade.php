@@ -3,15 +3,15 @@
 @section('content')
 
     <div class="wrapper text-center m-t">
-        <div class="h3 m-b">Someline</div>
+        <div class="h3 m-b">Opensmarty</div>
         <span class="padder">
-            <a target="_blank" href="https://www.someline.com/" class="btn btn-lg btn-default">Someline</a>
+            <a target="_blank" href="https://www.someline.com/" class="btn btn-lg btn-default">Opensmarty</a>
         </span>
         <span class="padder">
-            <a target="_blank" href="https://starter.someline.com/" class="btn btn-lg btn-default">Someline Starter</a>
+            <a target="_blank" href="https://starter.someline.com/" class="btn btn-lg btn-default">Opensmarty Starter</a>
         </span>
         <span class="padder">
-            <a target="_blank" href="https://starter.someline.com/docs" class="btn btn-lg btn-default">Someline Starter Docs</a>
+            <a target="_blank" href="https://starter.someline.com/docs" class="btn btn-lg btn-default">Opensmarty Starter Docs</a>
         </span>
     </div>
 

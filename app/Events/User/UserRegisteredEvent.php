@@ -1,14 +1,14 @@
 <?php
 /**
- * Created for someline-starter.
+ * Created for opensmarty-starter.
  * User: Nicolas Wan
  */
 
-namespace Someline\Events\User;
+namespace Opensmarty\Events\User;
 
 
 use Illuminate\Queue\SerializesModels;
-use Someline\Models\Foundation\User;
+use Opensmarty\Models\Foundation\User;
 
 class UserRegisteredEvent
 {

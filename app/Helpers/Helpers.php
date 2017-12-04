@@ -4,7 +4,7 @@ if (!function_exists('auth_user')) {
 
     /**
      * @param bool $throwException
-     * @return null|\Someline\Model\Foundation\User|\Someline\Models\Foundation\User
+     * @return null|\Opensmarty\Model\Foundation\User|\Opensmarty\Models\Foundation\User
      */
     function auth_user($throwException = true)
     {
