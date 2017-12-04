@@ -1,7 +1,7 @@
 <?php
 /**
  * Created for someline-starter.
- * User: Libern
+ * User: Nicolas Wan
  */
 
 namespace Someline\Events\User;

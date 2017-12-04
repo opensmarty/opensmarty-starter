@@ -1,12 +1,12 @@
 <?php
 
-namespace Someline\Repositories\Interfaces;
+namespace Opensmarty\Repositories\Interfaces;
 
-use Someline\Repositories\Interfaces\BaseRepositoryInterface;
+use Opensmarty\Repositories\Interfaces\BaseRepositoryInterface;
 
 /**
  * Interface UserRepository
- * @package namespace Someline\Repositories\Interfaces;
+ * @package namespace Opensmarty\Repositories\Interfaces;
  */
 interface UserRepository extends BaseRepositoryInterface
 {

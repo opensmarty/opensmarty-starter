@@ -1,7 +1,7 @@
 <?php
 /**
  * Created for opensmarty-starter.
- * User: opensmarty
+ * User: Nicolas Wan
  */
 
 namespace Opensmarty\Models;
