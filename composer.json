@@ -7,11 +7,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/BafS/api"
+            "url": "https://github.com/dingo/api"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/BafS/blueprint"
+            "url": "https://github.com/dingo/blueprint"
         }
     ],
     "require": {
