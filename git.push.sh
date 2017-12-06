@@ -73,8 +73,8 @@ push(){
 #        echo ""
     done
 }
-push
+
 #执行过程
-#echo "项目【$project】开始更新"
-#push
-#echo "更新结束"
+echo "项目【$project】开始更新"
+push
+echo "更新结束"
