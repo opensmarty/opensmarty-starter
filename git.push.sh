@@ -80,7 +80,7 @@ push(){
         then
             if [[ $origin == 'origin' ]]
             then
-                ECHO $COLOR_YELLOW "[exist]"
+                ECHO $COLOR_YELLOW "$origin[exist]"
             else
                 ECHO $COLOR_RED "项目【$origin】开始更新"
                 ECHO $COLOR_GREEN "分支[$index]:$origin"
