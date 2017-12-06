@@ -103,6 +103,6 @@ push
 
 end=$(date +%s%N)
 end_ms=${end:0:16}
-ECHO "cost time is:"
-ECHO "scale=6;($end_ms - $start_ms)/1000000" | bc
+ECHO $COLOR_REMOVE "cost time is:"
+ECHO $COLOR_REMOVE "scale=6;($end_ms - $start_ms)/1000000" | bc
 
