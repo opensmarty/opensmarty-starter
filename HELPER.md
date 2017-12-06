@@ -9,7 +9,10 @@ git push origin --tag
 ```bash
 git tag -d v1.0.0
 ```
-##How do you use your git to delete the remote tag ?
+##How do you use your git to delete the remote tag?
 ```bash
 git push origin --delete tag v1.0.0
 ```
+##How do you release your tags to Github?
+###1.点击【Release】按钮.
+###2.如果要创建Release,则点击右上角【Draft a new release】按钮.
