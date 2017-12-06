@@ -19,7 +19,7 @@
         "fideloper/proxy": "~3.3",
         "dingo/api": "v1.0.0-beta9",
         "rap2hpoutre/laravel-log-viewer": "^0.10.0",
-        "opensmarty/starter-framework": "1.7.*"
+        "opensmarty/starter-framework": "1.0.*"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
