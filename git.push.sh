@@ -60,12 +60,14 @@ push(){
             then
                 echo ''
             else
+                echo "项目【$origin】开始更新"
                 echo "分支[$index]:$origin"
                 git pull $origin master
                 git add .
                 git status
                 git commit -m "$m"
                 git push $origin master
+                echo "更新结束"
             fi
         fi
 
@@ -75,6 +77,5 @@ push(){
 }
 
 #执行过程
-echo "项目【$project】开始更新"
 push
-echo "更新结束"
+
