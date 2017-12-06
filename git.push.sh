@@ -1,4 +1,26 @@
 #!/bin/bash
+#========================================================================
+#   FileName: common.sh
+#     Author: Nicolas Wan
+#      Email: opensmarty@163.com
+#   HomePage: http://opensmarty.github.io
+# LastChange: 2017-10-13 21:05:13
+#========================================================================
+start=$(date +%s%N)
+start_ms=${start:0:16}
+
+# Console customed prompt color
+COLOR_GREEN="\033[0;32m"
+COLOR_RED="\033[0;31m"
+COLOR_YELLOW="\033[1;33m"
+COLOR_REMOVE="\e[00m"
+
+# enhanced echo
+ECHO () {
+    echo -e $1$2$COLOR_REMOVE
+}
+
+
 #提交说明参数，命令没带参数，则设m为空
 
 if [ -z $1 ]
@@ -58,16 +80,16 @@ push(){
         then
             if [[ $origin == 'origin' ]]
             then
-                echo ''
+                ECHO $COLOR_YELLOW "[exist]"
             else
-                echo "项目【$origin】开始更新"
-                echo "分支[$index]:$origin"
+                ECHO $COLOR_RED "项目【$origin】开始更新"
+                ECHO $COLOR_GREEN "分支[$index]:$origin"
                 git pull $origin master
                 git add .
                 git status
                 git commit -m "$m"
                 git push $origin master
-                echo "更新结束"
+                ECHO $COLOR_GREEN "更新结束"
             fi
         fi
 
@@ -78,4 +100,9 @@ push(){
 
 #执行过程
 push
+
+end=$(date +%s%N)
+end_ms=${end:0:16}
+ECHO "cost time is:"
+ECHO "scale=6;($end_ms - $start_ms)/1000000" | bc
 
