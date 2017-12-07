@@ -64,8 +64,7 @@ print_r() {
 }
 
 #打印项目分支
-echo ''
-echo '打印项目分支如下:'
+ECHO $COLOR_RED "打印项目分支如下:"
 print_r
 
 #提交函数
