@@ -228,7 +228,7 @@ Just visit: http://opensmarty-starter.app/
 It should prompt you for login, use:
 
 ```
-libern@opensmarty.com
+opensmarty@163.com
 Abc12345
 ```
 

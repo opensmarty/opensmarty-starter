@@ -28,7 +28,8 @@ sudo apt-get install php7.1-mbstring
 sudo apt-get install php7.1-gd
 sudo apt-get install php7.1-dom
 sudo apt-get install php7.1-mysql
-sudo apt-get install php7.1-sqlite 
+sudo apt-get install php7.1-sqlite
+sudo apt-get install php7.1-mcrypt
 sudo apt-get install php7.1-fpm
 sudo apt-get install php7.1-cgi
 sudo apt-get install php7.1-phpdbg
@@ -48,3 +49,5 @@ git clone git://github.com/phalcon/cphalcon.git
 cd cphalcon/build
 sudo ./install
 ```
+##Generate new token
+https://github.com/settings/tokens 点击 「Generate new token」
